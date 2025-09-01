@@ -1,4 +1,4 @@
-/*-----common section-----*/
+/*-----common css-----*/
 * {
     margin: 0;
     padding: 0;
@@ -47,4 +47,22 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+}
+
+
+/*--------join section style--------*/
+.join-section {
+    max-width: 1250px;
+    margin: auto;
+    background-color: rgb(229, 229, 245);
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.join-child {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.div {
+    padding: 50px;
 }
