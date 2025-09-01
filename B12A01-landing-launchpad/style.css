@@ -1,0 +1,39 @@
+/*-----common section-----*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/*------nav section design--------*/
+.header-section {
+    background-image:url('./Assets/Hero-bg.png');
+    margin-top: 50px;
+    padding: 60px;
+}
+.nav-parent {
+    max-width: 1250px;
+    margin: auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 34px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.btn {
+    padding: 12px 30px;
+    background-color: #4E47FF;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+}
+.banner-title {
+    text-align: center;
+    margin-top: 70px;
+}
