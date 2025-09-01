@@ -5,18 +5,17 @@
     font-family: "Poppins", sans-serif;
 }
 
-
 /*------nav section design--------*/
 .header-section {
     background-image:url('./Assets/Hero-bg.png');
-    margin-top: 50px;
     padding: 60px;
 }
 .nav-parent {
     max-width: 1250px;
     margin: auto;
 }
-nav {
+.nav-child {
+    align-items: center;
     display: flex;
     justify-content: space-between;
 }
@@ -29,6 +28,7 @@ nav {
     padding: 12px 30px;
     background-color: #4E47FF;
     color: white;
+    font-size: 16px;
     font-weight: 500;
     border-radius: 8px;
     border: none;
@@ -36,4 +36,15 @@ nav {
 .banner-title {
     text-align: center;
     margin-top: 70px;
+}
+
+
+/*-----action section style------*/
+.action-parent {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
 }
